@@ -1,0 +1,16 @@
+body .teste {
+    background: red;
+}
+
+body .teste {
+    background: blue;
+}
+
+ .texto {
+    text-align: center;
+    font-size: 25px;
+    background: red;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
