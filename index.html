@@ -3,6 +3,7 @@
 
   <head>
     <title>Festa Junina - Home</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,15 +18,90 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Icone aba navegador-->
+    <link rel="shortcut icon" href="img/favicon.png---"> 
+
+    <!--Segunda forma de adicionar o icone aba navegador -->
+    <link rel="icon" href="img/aba-smile.png">
+
   </head>
 
 
-  <body class="teste">
+  <body>
+    
+    <header class="container-fluid cabecalho"><!--Cabecalho site INICIO-->
+      <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container"><!--Container cabecalho-->
+            
+            <!--logo----------------------------------->
+            <a href="#" class="navbar-brand">
+                <i class="fas fa-code fa-5x text-light"></i> <!--Adicionando e formatando logo -->
+            </a>
+  
+            <!-- Formatando responsividade do site
+              - atributo: data-toggle="collapse" - para o menu mostrar somente as barrinhas
+              - data-target="#nav-principal" - para controlar o data-toggle
+              - class="navbar-toggler-icon" - botão barras responsiva
+            -->
+  
+  
+            <button class="navbar-toggler btn-outline-light logo" data-toggle="collapse" data-target="#nav-principal"><!--id que chama a barra de navegação-->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <!--itens do menu-->
+  
+            <div class="collapse navbar-collapse" id="nav-principal"> <!--Id para associar ao icone toggler-->
+  
+              <ul class="navbar-nav ml-auto text-uppercase"> <!--ml-auto: para jogar o elemento para a direito-->
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link text-light">Home</a>
+                </li>
+  
+                    <li class="nav-item">
+                      <a href="recursos.html" class="nav-link text-light">Sobre</a>
+                    </li>
+  
+                    <li class="nav-item">
+                      <a href="beneficios.html" class="nav-link text-light">Eventos</a>
+                    </li>
+  
+                    <li class="nav-item">
+                      <a href="precos.html" class="nav-link text-light">Fotos</a>
+                    </li>
 
-      <div class="display-2 texto">TESTE TEXTO</div>
+                    <li class="nav-item">
+                        <a href="precos.html" class="nav-link text-light">Contato</a>
+                      </li>
+  
+                 <!--Botão entrar, faz parte da lista, mas é tratado como botão-->   
+                <li class="nav-item">
+                  <a href="precos.html" class="btn btn-outline-light ml-3">Entrar</a> <!--btn btn-outline-light: para deixar o contorno do botão claro-->
+                </li>
+  
+              </ul>
+  
+            </div>
+  
+          </div>
+        </nav>
 
+    </header><!--Cabecalho site FIM-->
 
+    <!--Conteúdo Inicio-->
+    <section class="container-fluid">
 
+      
+
+    </section>
+    <!--Conteúdo Fim-->
+    
+
+     
 
 
 

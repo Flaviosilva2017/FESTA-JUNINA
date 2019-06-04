@@ -1,16 +1,31 @@
-body .teste {
-    background: red;
+/* FORMATAÇÃO BARRA DE NAVEGAÇÃO VERTICAL*/
+body nav {
+    margin-top: 15px;
+    margin-right: 30px;
+    
 }
 
-body .teste {
-    background: blue;
+/*FORMATAÇÃO LOGO CABEÇALHO*/
+header .logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    color: white;
+    
 }
 
- .texto {
-    text-align: center;
-    font-size: 25px;
-    background: red;
-    box-sizing: border-box;
+header {
     padding: 10px;
+    box-sizing: border-box;
 }
 
+/*FORMATAÇÃO CABECALHO*/
+body .cabecalho {
+    background: #950000;
+}
+
+/*FORMATAÇÃO LINKS */
+
+nav ul a {
+    color: white;
+}
