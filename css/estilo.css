@@ -29,3 +29,18 @@ body .cabecalho {
 nav ul a {
     color: white;
 }
+
+/*FORMATAÇÃO RODAPE*/
+footer .rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social {
+    padding: 5px;
+    margin: 2px;
+}
+
+footer h3 {
+    color: #E2E2E2;
+}
