@@ -32,13 +32,13 @@
 
   <body>
     
-    <header class="container-fluid cabecalho"><!--Cabecalho site INICIO-->
+    <header class="container-fluid cabecalho fixed-top"><!--Cabecalho site INICIO-->
       <nav class="navbar navbar-expand-sm ">
           <div class="container"><!--Container cabecalho-->
             
             <!--logo----------------------------------->
             <a href="#" class="navbar-brand">
-                <i class="fas fa-code fa-5x text-light"></i> <!--Adicionando e formatando logo -->
+                <img src="img/logo-4.png" width="206" height="150"> <!--Adicionando e formatando logo -->
             </a>
   
             <!-- Formatando responsividade do site
@@ -48,7 +48,7 @@
             -->
   
   
-            <button class="navbar-toggler btn-outline-light logo" data-toggle="collapse" data-target="#nav-principal"><!--id que chama a barra de navegação-->
+            <button class="navbar-toggler btn-outline-warning logo" data-toggle="collapse" data-target="#nav-principal"><!--id que chama a barra de navegação-->
               <span class="navbar-toggler-icon"></span>
             </button>
   
@@ -93,13 +93,75 @@
     </header><!--Cabecalho site FIM-->
 
     <!--Conteúdo Inicio-->
-    <section class="container-fluid">
+    <section class="container-fluid bg-dark">
+    
+      <div class="row">
 
-      
+        <div class="col-md-8 m-auto"> <!-- centralizando o conteudo dos slides-->
 
+          <div id="carousel-controles" class="carousel slide " data-ride="carousel"> <!--inicio carrossel -->
+
+            <div class="carousel-inner"> <!-- inicio inner-->
+
+              <div class="carousel-item active"> <!--slide 1 ativo -->
+                <img src="img/bandeira-1.png" class="img-fluid">
+
+                </div>
+
+
+               <div class="carousel-item "> <!--slide 2 -->
+                <img src="img/baloes-2.png" class="img-fluid">
+               
+              </div>
+
+
+              <div class="carousel-item "> <!--slide 3 -->
+                <img src="img/fogueira-3.png" class="img-fluid">
+               
+              </div>
+              
+
+            </div> <!-- fim inner-->
+
+            <!--carrossel controle -->
+            <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev"> <!--jquery -->
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#carousel-controles" class="carousel-control-next" data-slide="next"> <!--jquery -->
+              <span class="carousel-control-next-icon "></span>
+            </a>
+          
+        </div> <!--fim carrossel -->
+      </div>
+      </div>
     </section>
     <!--Conteúdo Fim-->
 
+
+    <!-- LOCALIZAÇÃO E INFORMAÇÕES BÁSICAS-->
+    
+    <section class="container-fluid">
+      
+      <div class="row">
+      <div class="col-md-6 img-fluid"> <!--mapa como chegar na festa-->
+          <div class="mapa">Como chegar <i class="fas fa-map-marker text-primary"></i></div>
+        
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252745.6380254661!2d-36.1562529224644!3d-8.187580809468525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98b96e8d7fd6d%3A0xa30a5c7c9e363ef5!2sCaruaru+-+Picada%2C+Caruaru+-+PE!5e0!3m2!1spt-BR!2sbr!4v1559748702649!5m2!1spt-BR!2sbr" width="745" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-4 m-auto ">
+        <h3 class="text-uppercase">Atenção</h3>
+        <p class="lead text-justify">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+
+      </div>
+
+      </div>
+
+    </section>
 
 
     <!--rodape------------------------------------------------>

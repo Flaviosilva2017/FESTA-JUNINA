@@ -10,7 +10,7 @@ header .logo {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 70px;
-    color: white;
+    
     
 }
 
@@ -21,7 +21,7 @@ header {
 
 /*FORMATAÇÃO CABECALHO*/
 body .cabecalho {
-    background: #950000;
+    background: #AFAFAF;
 }
 
 /*FORMATAÇÃO LINKS */
@@ -32,9 +32,11 @@ nav ul a {
 
 /*FORMATAÇÃO HOVER BARRA DE NAVEGAÇÃO HR*/
 nav ul a:hover{
-    background: white;
+    
     color: black;
-    border-radius: 25px;
+    border-radius: 10px;
+    display: inline;
+    padding: 8px;
 }
 
 footer .rodape a {
@@ -68,5 +70,20 @@ footer .social {
 
 footer h3 {
     color: #9C0000;
+}
+
+/* FORMATANDO TEXTO MAPA H3*/
+.mapa {
+    color: #363636;
+    font-size: 1.5em;
+    width: 200px;
+    margin: 5px 0px 5px 5px;
+}
+
+
+
+/*FORMATAÇÃO PÁGINA SOBRE*/
+div p .veja-mais {
+    text-decoration: none;
 }
 
