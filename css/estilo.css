@@ -30,10 +30,35 @@ nav ul a {
     color: white;
 }
 
-/*FORMATAÇÃO RODAPE*/
+/*FORMATAÇÃO HOVER BARRA DE NAVEGAÇÃO HR*/
+nav ul a:hover{
+    background: white;
+    color: black;
+    border-radius: 25px;
+}
+
 footer .rodape a {
     text-decoration: none;
-    color: white;
+    color: #F3F3F3;
+}
+ 
+footer .rodape a:hover {/* HOVER INSTITUCIONAL*/
+    background: white;
+    color: black;
+    padding: 4px;
+
+}
+
+footer div .rodape { /* FORMATAÇÃO TEXTO APOIO*/
+    color: #F3F3F3;
+}
+
+footer div .rodape ul li:hover {
+    background: white;
+    color: black;
+    display: inline;
+    padding: 4px;
+    margin: 2px;
 }
 
 footer .social {
@@ -42,5 +67,6 @@ footer .social {
 }
 
 footer h3 {
-    color: #E2E2E2;
+    color: #9C0000;
 }
+
