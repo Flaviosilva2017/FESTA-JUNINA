@@ -87,3 +87,8 @@ div p .veja-mais {
     text-decoration: none;
 }
 
+/*FORMATANDO PÁGINA CONTATO FORMULÁRIO*/
+form div .form {
+    width: 350px;
+}
+
